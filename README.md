@@ -7,6 +7,8 @@ The transition used when slides are changing is a fade-in/out from jQuery.
 
 The look and features of the carousel are the same as those originally used by the [default bootstrap carousel](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp). Only the transition is different using a fade effect.
 
+You can preview a live example by clicking [here](https://benjahdev.github.io/Carouselize/1.0.0/).
+
 ## Requirements
 
 You must include the following libraries:
@@ -54,6 +56,7 @@ You can check the `example` branch for a complete example of this plugin integra
     ```
     
     Here nothing is required, you can use any html container. Only if you want keyboard events to work properly, you must set the `tabindex` attribute on this container.
+    All children elements of the container will be removed while the code will be added.
     
 3) Call the plugin command passing the slides data as argument of this function:
 
