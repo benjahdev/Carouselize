@@ -34,7 +34,7 @@
 <script type="text/javascript">
     if ('undefined' !== typeof jQuery) {
         $(document).ready(function() {
-            let test = [
+            let slides = [
                 {
                     src: 'images/la.jpg',
                     alt: 'Los Angeles'
@@ -49,7 +49,7 @@
                 },
             ];
 
-            $('#myCarousel').carouselize(test, true, 3000);
+            $('#myCarousel').carouselize(slides, true, 3000);
         });
     } else {
         console.log('jQuery hasn\'t loaded');
