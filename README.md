@@ -5,6 +5,8 @@
 This jQuery plugin can be used to dynamically generate a carousel using Bootstrap classes (v3.3.7) according to an object array.
 The transition used when slides are changing is a fade-in/out from jQuery.
 
+The look and features of the carousel are the same as those originally used by the [default bootstrap carousel](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp). Only the transition is different using a fade effect.
+
 ## Requirements
 
 You must include the following libraries:
@@ -14,7 +16,7 @@ You must include the following libraries:
 
 ## How to
 
-You can check the `example` branch for a complete example of this plugin integration by clicking [here]("https://github.com/benjahdev/Carouselize/tree/example").
+You can check the `example` branch for a complete example of this plugin integration by clicking [here](https://github.com/benjahdev/Carouselize/tree/example).
 
 1) After integrating the various required components you must first prepare the data set for the carousel slides:
     
