@@ -34,22 +34,12 @@
 <script type="text/javascript">
     if ('undefined' !== typeof jQuery) {
         $(document).ready(function() {
-            let slides = [
-                {
-                    src: 'images/la.jpg',
-                    alt: 'Los Angeles'
-                },
-                {
-                    src: 'images/chicago.jpg',
-                    alt: 'Chicago'
-                },
-                {
-                    src: 'images/ny.jpg',
-                    alt: 'New York'
-                },
-            ];
-
-            $('#myCarousel').carouselize(slides, true, 3000);
+            $.ajax({
+                url: "data.json",
+                dataType: "json"
+            }).done(function( data ) {
+                $('#myCarousel').carouselize(data["slides"], true, 3000);
+            });
         });
     } else {
         console.log('jQuery hasn\'t loaded');

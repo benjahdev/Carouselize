@@ -1,0 +1,16 @@
+{
+  "slides": [
+    {
+      "src": "images/la.jpg",
+      "alt": "Los Angeles"
+    },
+    {
+      "src": "images/chicago.jpg",
+      "alt": "Chicago"
+    },
+    {
+      "src": "images/ny.jpg",
+      "alt": "New York"
+    }
+  ]
+}
